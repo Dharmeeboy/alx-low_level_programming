@@ -1,9 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-	char stray[] = "\"Programming is like building a multilingual puzzle\n";
+	puts("\"Programming is like building a multilingual puzzle");
 
-	puts(stray);
-
-	return(0);
+	return (0);
 }
