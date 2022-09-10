@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 /**
- * main-
+ * main-prints number less than 10 using putchar
  *
- * Return: 
+ * Return: Always (Success)
  *
  */
 int main(void)
 {
 	int c;
+
 	for (c = '0'; c <= '9'; c++)
 	{
 		putchar(c);
