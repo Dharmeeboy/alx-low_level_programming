@@ -2,7 +2,7 @@
 /**
  * main-print numbers below 10
  *
- * return: Always(success)
+ * Return: Always(success)
  *
  */
 
