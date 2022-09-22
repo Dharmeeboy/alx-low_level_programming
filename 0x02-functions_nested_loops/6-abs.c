@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *int _abs -> to print the absolute value of an integer
+ *_abs -> to print the absolute value of an integer
  *
- *@int: param
+ *@a: param to print absolute value from
  *
  *Return: Absolute Value
  */
