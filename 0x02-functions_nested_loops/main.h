@@ -3,5 +3,6 @@
 
 int _putchar(char c);
 void printMul(void);
+void print_alphabet(void);
 
 #endif /* MAIN_H */
