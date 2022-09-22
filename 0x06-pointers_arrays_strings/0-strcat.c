@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  *strcat - Concatenates strings pointed by @src
@@ -12,7 +11,7 @@
  *
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int len = 0, i;
 
