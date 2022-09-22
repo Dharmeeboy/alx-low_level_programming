@@ -1,13 +1,23 @@
 #include "main.h"
 /**
- * main - to call print_alphabet_x10 function
+ * print_alphabet_x10  to print_alphabet_x10
  *
  * Return: Always Success
  *
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
-	print_alphabet_x10();
-	return (0);
+	char c;
+
+	int 1;
+
+	for (i = 0; i < 10; i++)
+	{
+		for (c = 'a'; c <= 'z'; ++c)
+		{
+			_putchar('c');
+		}
+		_putchar('\n');
+	}
 }
