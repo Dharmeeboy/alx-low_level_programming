@@ -1,1 +1,1 @@
-The codes here are for more pointers, strings and arrays
+The codes written here are for more pointers and arrays
