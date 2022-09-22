@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - prints letters of the alphabet
+ * print_alphabet - prints letters of the alphabet
  *
  * Return: Always success
  *
@@ -8,7 +8,7 @@
 
 void print_alphabet(void)
 {
-	char c; 
+	char c;
 
 	for (c = 'a'; c <= 'z'; ++c)
 	{
