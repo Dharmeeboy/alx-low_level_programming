@@ -1,0 +1,26 @@
+#include "main.h"
+/**
+ *print_sign -> prints the sign of a number
+ *
+ *@n: param
+ *
+ * Return: 1 if positive or 0 if zero or - if negative
+ *
+ */
+
+int print_sign(int n)
+{
+	if (n > 0)
+	{
+		printf("+\n");
+		return (1);
+	}
+	else if (n < 0)
+	{
+		printf("-\n");
+		return (-1);
+	}
+	else
+		printf("0");
+		return (0);
+}
