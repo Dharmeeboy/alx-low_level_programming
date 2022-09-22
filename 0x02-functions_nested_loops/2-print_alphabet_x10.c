@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10  to print_alphabet_x10
+ * print_alphabet_x10 - to print_alphabet_x10
  *
  * Return: Always Success
  *
@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 {
 	char c;
 
-	int 1;
+	int i;
 
 	for (i = 0; i < 10; i++)
 	{
