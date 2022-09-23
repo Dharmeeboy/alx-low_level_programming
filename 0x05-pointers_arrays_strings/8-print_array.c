@@ -18,9 +18,9 @@ void print_array(int *a, int n)
 	for (pin = 0; pin < n; pin++)
 	{
 		if (pin != n - 1)
-			printf("%d, " a[pin]);
+			printf("%d", a[pin]);
 		else
-			prinf("%d, ", a[pin]);
+			printf("%d", a[pin]);
 	}
 	putchar(10);
 }
