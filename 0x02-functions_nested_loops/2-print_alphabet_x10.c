@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+#include "main.h"
 /**
  * print_alphabet_x10 - Entry Point
  * Return: 0 (success)
