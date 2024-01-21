@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
-* add - add two integers
+* print_to_98 - add two integers
+* @n: number to print from
 *
 * Return: 0 (success)
 */
@@ -26,5 +27,6 @@ if (b < 98)
 {
 putchar(44);
 putchar(32);
+}
 }
 }
