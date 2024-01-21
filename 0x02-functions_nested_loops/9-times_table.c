@@ -18,21 +18,21 @@ for (b = 0; b <= 9; b++)
 c = a * b;
 if (c > 9)
 {
-putchar((c / 10) + '0');
-putchar((c % 10) + '0');
+_putchar((c / 10) + '0');
+_putchar((c % 10) + '0');
 }
 else
 {
-putchar(' ');
-putchar((c % 10) + '0');
+_putchar(' ');
+_putchar((c % 10) + '0');
 }
 if (b <= 8)
 {
-putchar(',');
-putchar(' ');
+_putchar(',');
+_putchar(' ');
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 }
 
