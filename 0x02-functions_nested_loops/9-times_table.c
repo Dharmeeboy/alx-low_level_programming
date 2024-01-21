@@ -18,8 +18,11 @@ for (b = 0; b <= 9; b++)
 c = a * b;
 putchar((c / 10) + '0');
 putchar((c % 10) + '0');
+if (b <= 8)
+{
 putchar(',');
 putchar(' ');
+}
 }
 putchar('\n');
 }
