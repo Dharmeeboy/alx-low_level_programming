@@ -23,6 +23,7 @@ putchar((c % 10) + '0');
 }
 else
 {
+putchar('\n');
 putchar((c % 10) + '0');
 }
 if (b <= 8)
