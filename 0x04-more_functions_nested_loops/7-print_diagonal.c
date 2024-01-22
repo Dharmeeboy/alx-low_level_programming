@@ -18,14 +18,14 @@ for (j = 0; j < n; j++)
 {
 if (j != i)
 {
-putchar(32);
+_putchar(32);
 }
 else
 {
-putchar(92);
+_putchar(92);
 }
 }
-printf("\n");
+_putchar('\n);
 }
 }
 else
