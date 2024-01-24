@@ -16,11 +16,11 @@ while (*s != '\0')
 i++;
 s++;
 }
-s = s - i;
-a = i;
-while (a > 0)
+s--;
+for (a = i; a > 0; a--)
 {
-putchar(s[a - 1]);
-a--;
+putchar(*s);
+s--;
 }
+putchar('\n');
 }
