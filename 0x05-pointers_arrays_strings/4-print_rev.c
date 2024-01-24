@@ -15,9 +15,10 @@ while (s[i] != '\0')
 {
 i++;
 }
-for (a = i; a >= 0; a--)
+a = i - 1;
+while (a >= 0)
 {
-_putchar(s[a]);
+putchar(s[a]);
+a--;
 }
-_putchar('\n');
 }
