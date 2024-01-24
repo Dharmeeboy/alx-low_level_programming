@@ -8,15 +8,7 @@
 
 int _strlen(char *s)
 {
-int count;
 int i;
-
-for (i = 0; s[i] != '\0'; i++)
-{
-if(s[i] >= 0 && s[i] <= 128)
-{
-count++;
-}
-}
-return (count);
+for (i = 0; s[i] != '\0'; i++);
+return (i);
 }
