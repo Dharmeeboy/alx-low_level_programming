@@ -20,7 +20,7 @@ s--;
 for (a = i; a > 0; a--)
 {
 putchar(*s);
-*s--;
+s--;
 }
 putchar('\n');
 }
