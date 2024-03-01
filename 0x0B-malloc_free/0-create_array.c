@@ -24,5 +24,4 @@ for (i = 0; i < size; i++)
 arr[i] = c;
 }
 return (arr);
-return (NULL);
 }
