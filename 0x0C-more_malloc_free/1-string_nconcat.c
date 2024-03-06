@@ -24,6 +24,11 @@ s2 = "";
 
 new_str = malloc(sizeof(char) * (strlen(s1) + n + 1));
 
+if (new_str == NULL)
+{
+return (NULL);
+}
+
 for (i = 0; s1[i] != '\0'; i++)
 {
 new_str[i] = s1[i];
