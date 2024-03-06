@@ -24,7 +24,7 @@ if (array == NULL)
 return (NULL);
 }
 size = max - min + 1;
-for (i = 0; i <= size; i++)
+for (i = 0; i < size; i++)
 {
 array[i] = min + i;
 }
